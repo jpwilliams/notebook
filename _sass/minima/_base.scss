@@ -259,27 +259,24 @@
    * Highlighting
    */
 .highlighter {
-	// display: initial;
-	// position: relative;
 	transition: all 0.8s ease-in-out;
-	background-color: $highlight-color;
-	padding: 0 5px;
-	// box-sizing: border-box;
+  background-color: $highlight-color;
+  background-blend-mode: overlay;
+	padding: 2px 0;
 	color: $text-color !important;
-	text-decoration: none;
-	// line-height: 1em;
-	// margin: 0;
-	// left: 0;
+  text-decoration: none;
+  box-shadow: 3px 0 0 $highlight-color, -3px 0 0 $highlight-color;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 
 	&:hover {
-		position: relative;
-		text-decoration: none;
-		// display: inline;
-		cursor: pointer;
-		background-color: lighten($highlight-color, 10%);
-		padding: 10px 15px;
-		// left: -10px;
-		// margin: -10px 0 -10px -10px;
-		// line-height: 1.5em;
+    text-decoration: none;
+    z-index: -2;
+		display: inline;
+    cursor: pointer;
+    background-color: lighten($highlight-color, 10%);
+    box-shadow: 10px 0 0 lighten($highlight-color, 10%), -10px 0 0 lighten($highlight-color, 10%);
+		padding: 5px 0;
+    margin: -10px 0 -10px 0px;
 	}
 }
