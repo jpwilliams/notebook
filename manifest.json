@@ -1,0 +1,10 @@
+{
+	"name": "Jack Williams - Notebook",
+	"short_name": "Jack Williams - Notebook",
+	"lang": "en-GB",
+	"display": "standalone",
+	"start_url": ".",
+	"theme_color": "#0096e2",
+	"background_color": "#0096e2",
+	"description": "Thoughts, links, and ideas."
+}
