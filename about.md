@@ -10,4 +10,4 @@ Great lover of [event-driven architectures and open source](https://github.com/j
 
 You can find me at [GitHub](https://github.com/jpwilliams), [Twitter](https://twitter.com/atticjack), and [LinkedIn](https://www.linkedin.com/in/jackpwilliams/).
 
-_If you'd like to contact me directly, send me an email to [jpwilliamsphotography@gmail.com](mailto:jpwilliamsphotography@gmail.com)._
+_If you'd like to contact me directly, send an email to [jpwilliamsphotography@gmail.com](mailto:jpwilliamsphotography@gmail.com)._
