@@ -38,8 +38,8 @@
 		"type": "image\/png",
 		"density": "4.0"
 	}, {
-		"src": "\/notebook\/assets\/images\/favicons\/512.jpg",
+		"src": "\/notebook\/assets\/images\/favicons\/512.png",
 		"sizes": "512x512",
-		"type": "image\/jpg"
+		"type": "image\/png"
 	}]
 }
