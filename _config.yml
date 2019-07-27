@@ -16,7 +16,7 @@
 title: Jack Williams - Notebook
 email: jpwilliamsphotography@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Thoughts, links, and ideas from Jack Williams.
+  Thoughts, links, and ideas.
 baseurl: "/notebook" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: atticjack
