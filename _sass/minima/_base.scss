@@ -316,3 +316,28 @@
 		background-color: green;
 	}
 }
+
+
+/**
+  * Link posts
+  **/
+.link-block {
+	display: flex;
+	margin-left: 20%;
+	opacity: 0.8;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	p {
+		flex: 1;
+		font-size: 0.8rem;
+		color: #555;
+		padding: 5px 13px 13px;
+	}
+
+	.link-post-link {
+		font-size: 1.1rem;
+	}
+}
