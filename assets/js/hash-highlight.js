@@ -31,10 +31,14 @@ function hashMayHaveChanged (data) {
 }
 
 function handleHighlightClick (e) {
-	e.preventDefault()
 	const anchor = event.target.closest('a')
-	history.replaceState({}, '', anchor.getAttribute('href'))
-	hashMayHaveChanged(anchor.getAttribute('href'))
+	const href = anchor.getAttribute('href')
+
+	if (!href.startsWith('#')) return true
+
+	e.preventDefault()
+	history.replaceState({}, '', href)
+	hashMayHaveChanged(href)
 }
 
 hashMayHaveChanged()
