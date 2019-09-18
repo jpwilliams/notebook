@@ -1,0 +1,9 @@
+---
+layout: post
+title: Spirit
+date: 2019-09-18 11:49:00 +0100
+categories: [dev]
+permalink: /spirit-app
+link: https://spiritapp.io/
+---
+Rediscovered this nifty tool for creating SVG animations. Amazing UI.
