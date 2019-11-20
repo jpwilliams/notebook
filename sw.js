@@ -39,8 +39,8 @@ function onActivate (event) {
 function onFetch (event) {
 	const req = event.request
 
-	// don't interrupt calls that aren't GET
-	if (req.method !== 'GET') {
+	// don't interrupt calls that aren't HTTP GET
+	if (req.method !== 'GET' || req.url.indexOf('http') !== 0) {
 		return
 	}
 
