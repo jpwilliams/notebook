@@ -3,7 +3,6 @@ layout: post
 title: Protobot
 date: 2019-08-08 16:40:00 +0100
 categories: [fun]
-permalink: /protobot/
 link: http://molly.is/experimenting/protobot
 ---
 Project idea generator. Having great fun planning out and drawing one of these every morning.

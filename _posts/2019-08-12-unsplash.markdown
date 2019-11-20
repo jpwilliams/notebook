@@ -3,7 +3,6 @@ layout: post
 title: Unsplash
 date: 2019-08-12 14:34:00 +0100
 categories: [photography]
-permalink: /unsplash
 link: https://unsplash.com
 ---
 Found a beautiful site for CC stock images. Some great content here.
