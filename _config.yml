@@ -23,6 +23,14 @@ twitter_username: atticjack
 github_username:  jpwilliams
 show_excerpts: true
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      author: "Jack Williams"
+
 # Build settings
 markdown: kramdown
 theme: minima
