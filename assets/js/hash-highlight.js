@@ -1,7 +1,6 @@
 let previousHighlight
 
 const piecesToHighlight = document.getElementsByClassName('highlight-block')
-console.log(piecesToHighlight)
 
 for (let i = 0; i < piecesToHighlight.length; ++i) {
 	piecesToHighlight[i].addEventListener('click', handleHighlightClick)
