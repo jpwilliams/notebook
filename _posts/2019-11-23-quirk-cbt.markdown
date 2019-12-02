@@ -1,0 +1,8 @@
+---
+layout: post
+title: Quirk CBT
+date: 2019-11-23 17:06:00 +0100
+categories: [dev]
+link: https://github.com/Flaque/quirk
+---
+Discovered the wonderful app Quirk CBT, an open source thought diary for Cognitive Behavioural Therapy. Not only is the project itself fantastic, but the development ethos behind it is wonderful too. Check out the readme.
