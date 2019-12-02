@@ -25,4 +25,15 @@ layout: default
 	<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-<script async src="{{ site.baseurl }}/assets/js/hash-highlight.js">
+<script async src="{{ site.baseurl }}/assets/js/hash-highlight.js"></script>
+
+<script type="text/javascript">
+var syntaxHighlight = document.createElement('link')
+syntaxHighlight.rel = 'stylesheet'
+syntaxHighlight.href = '{{ site.baseurl }}/assets/css/monokai.css'
+
+document.head.insertBefore(
+	syntaxHighlight,
+	document.head.childNodes[document.head.childNodes.length - 1].nextSibling
+)
+</script>
