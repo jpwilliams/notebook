@@ -9,7 +9,7 @@ When fiddling around with GraphQL projects, I've frequently found it difficult t
 
 Separate files means separate logical groups of relevant data. There are plenty of ways to easily view directory trees, but it's not so easy to bundle all of the mental state of a 3,000 line file in to your head. What if our entire GraphQL server could be viewed neatly, like this:
 
-![Example GraphQL tree]({{ site.url }}/{{ site.baseurl }}/assets/images/graphql-example-tree.png)
+![Example GraphQL tree]({{ site.baseurl }}/assets/images/graphql-example-tree.png)
 
 On the left here, we see the directory tree for the types in this example GraphQL server. Each type has its own directory with a `schema.graphql` file defining it. For the simple `Date` type, we've only made two files - `schema.graphql` and `resolvers.js`. The files here are really simple:
 
