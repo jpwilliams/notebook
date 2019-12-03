@@ -33,6 +33,7 @@
 
  p {
 	 position: relative;
+	 margin-bottom: 23px;
  }
 
 
@@ -44,7 +45,7 @@
  p, blockquote, pre,
  ul, ol, dl, figure,
  %vertical-rhythm {
-	 margin-bottom: $spacing-unit / 2;
+	 margin-bottom: $spacing-unit * 0.766;
  }
 
 
@@ -186,12 +187,14 @@
 	* Wrapper
 	*/
  .wrapper {
-	 max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-	 max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+	//  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 8));
+	//  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 8));
+	 max-width: $content-width;
 	 margin-right: auto;
 	 margin-left: auto;
-	 padding-right: $spacing-unit;
-	 padding-left: $spacing-unit;
+	 padding-right: $spacing-unit * 4;
+	 padding-left: $spacing-unit * 4;
+	 box-sizing: border-box;
 	 @extend %clearfix;
 
 	 @include media-query($on-laptop) {
@@ -339,6 +342,7 @@
 		font-size: 0.8rem;
 		color: #555;
 		padding: 5px 13px 13px;
+		margin-bottom: 0;
 	}
 
 	.link-post-link {
@@ -350,5 +354,45 @@
 .post-content {
 	img {
 		border-radius: 0.8rem;
+	}
+}
+
+.site-header {
+	background-color: #ffffff;
+	box-shadow: 0 10px 30px 0 rgba(25,45,100,.08);
+	border-bottom: 2px solid $brand-color !important;
+}
+
+.post, .post-list {
+	z-index: 10;
+	padding: $spacing-unit * 1.75 $spacing-unit * 2;
+	background-color: white;
+	box-shadow: 0 10px 30px 0 rgba(25,45,100,.08);
+	border-radius: 4px;
+}
+
+.page-content {
+	position: relative;
+}
+
+.post-hero {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: $spacing-unit * 16.66;
+	z-index: -1;
+	box-shadow: 0 10px 60px 0 rgba(25,45,100,.3);
+	// background-color: #4b526b;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
+
+	& + .post {
+		margin-top: $spacing-unit * 10
 	}
 }

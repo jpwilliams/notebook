@@ -4,6 +4,7 @@ title:  "It's all about trade-offs"
 date:   2018-06-11 11:23:10 +0100
 categories: [dev, programming]
 permalink: /its-all-about-trade-offs/
+hero: /assets/images/nomad.svg
 ---
 I recently had a great discussion regarding WebSockets and HTTP/2 with a former colleague. During the discourse, they uttered one line so deeply-set in truth that it must be shared. Repeatedly.
 

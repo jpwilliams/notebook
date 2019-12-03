@@ -4,6 +4,7 @@ title: "Modularising GraphQL for scale"
 date: 2019-11-24 12:00:00 +0100
 categories: [dev]
 permalink: /modularising-graphql-for-scale/
+hero: /assets/images/honnold.svg
 ---
 When fiddling around with GraphQL projects, I've frequently found it difficult to know where things should go. Just like naming variables, naming and placing files is hard. The simplest method here is to bundle everything in to one file, but that quickly gets out of hand.
 
