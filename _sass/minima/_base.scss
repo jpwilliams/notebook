@@ -396,3 +396,16 @@
 		margin-top: $spacing-unit * 10
 	}
 }
+
+@include media-query($on-laptop) {
+  .wrapper {
+    padding-right: $spacing-unit * 0.8;
+    padding-left: $spacing-unit * 0.8;
+  }
+
+  .post, .post-list {
+	  width: 100%;
+	  margin-left: -($spacing-unit * 0.8) !important;
+	  padding: $spacing-unit * 0.8;
+  }
+}
